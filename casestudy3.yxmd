@@ -1,0 +1,2641 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample_data.xlsx
+Query=`Employee$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EMP_ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="V_String" />
+            <Field name="First Name" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="V_String" />
+            <Field name="Last name" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="V_String" />
+            <Field name="age" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="Double" />
+            <Field name="Department ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="V_String" />
+            <Field name="Emp_Rank" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="Double" />
+            <Field name="Salary_ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="V_String" />
+            <Field name="Emp_Email" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Joining_date$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample_data.xlsx
+Query=`Joining_date$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EMP_ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Joining_date$`" type="V_String" />
+            <Field name="DOJ" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Joining_date$`" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Department$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample_data.xlsx
+Query=`Department$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Department ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Department$`" type="V_String" />
+            <Field name="Department Name" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Department$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample_data.xlsx
+Query=`Payslip$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EMP_ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="V_String" />
+            <Field name="Salary_ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="V_String" />
+            <Field name="GrossSalary" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="Double" />
+            <Field name="Deduction" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="Double" />
+            <Field name="Tax" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="Double" />
+            <Field name="Month" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample_data.xlsx
+Query=`EMP2$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EMP_ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="V_String" />
+            <Field name="EMP_First Name" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="V_String" />
+            <Field name="EMP_Last name" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="V_String" />
+            <Field name="Age" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="Double" />
+            <Field name="Dep ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="V_String" />
+            <Field name="Emp_Rank" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="Double" />
+            <Field name="Salary_ID" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="V_String" />
+            <Field name="Gender" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Rank$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample_data.xlsx
+Query=`Rank$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Emp_Rank" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Rank$`" type="Double" />
+            <Field name="Designation" size="255" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Rank$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DataCleansePro.DataCleansePro">
+        <Position x="738" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RemoveNullRows value="False" />
+          <RemoveNullColumns value="False" />
+          <RemoveTabsLineBreaksAndDuplicates value="False" />
+          <RemoveLeadingAndTrailingWhitespace value="True" />
+          <RemoveAllWhitespaces value="False" />
+          <RemoveHTMLTags value="False" />
+          <RemoveInvisibleCharacters value="False" />
+          <Fields>
+            <Field value="EMP_ID" selected="True" />
+            <Field value="First Name" selected="True" />
+            <Field value="Last name" selected="True" />
+            <Field value="Address" selected="True" />
+            <Field value="Age" selected="True" />
+            <Field value="Department ID" selected="True" />
+            <Field value="Emp_Rank" selected="True" />
+            <Field value="Salary_ID" selected="True" />
+            <Field value="Emp_Email" selected="True" />
+            <Field value="*Unknown" selected="True" />
+          </Fields>
+          <RemoveLetters value="False" />
+          <RemoveNumbers value="False" />
+          <RemovePunctuation value="False" />
+          <Letters value="" />
+          <Numbers value="" />
+          <Punctuations value="" />
+          <Exceptions value="" />
+          <Checkbox_ReplaceStringColumns value="True" />
+          <Checkbox_ReplaceNumericColumns value="True" />
+          <radioButton_ReplaceNullwithBlanks value="True" />
+          <radioButton_ReplaceBlankswithNulls value="False" />
+          <radioButton_ReplaceNullwithZero value="True" />
+          <radioButton_ReplaceZerowithNulls value="False" />
+          <ReplaceWithBlanks value="True" />
+          <ReplaceWithZero value="True" />
+          <CheckBox_ModifyCase value="False" />
+          <ModifyCase value="none" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDataCleanse" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DataCleansePro.DataCleansePro">
+        <Position x="690" y="643" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RemoveNullRows value="False" />
+          <RemoveNullColumns value="False" />
+          <RemoveTabsLineBreaksAndDuplicates value="False" />
+          <RemoveLeadingAndTrailingWhitespace value="True" />
+          <RemoveAllWhitespaces value="False" />
+          <RemoveHTMLTags value="False" />
+          <RemoveInvisibleCharacters value="False" />
+          <Fields>
+            <Field value="EMP_ID" selected="True" />
+            <Field value="Salary_ID" selected="True" />
+            <Field value="GrossSalary" selected="True" />
+            <Field value="Deduction" selected="True" />
+            <Field value="Tax" selected="True" />
+            <Field value="Month" selected="True" />
+            <Field value="DOJ" selected="True" />
+            <Field value="*Unknown" selected="True" />
+          </Fields>
+          <RemoveLetters value="False" />
+          <RemoveNumbers value="False" />
+          <RemovePunctuation value="False" />
+          <Letters value="" />
+          <Numbers value="" />
+          <Punctuations value="" />
+          <Exceptions value="" />
+          <Checkbox_ReplaceStringColumns value="True" />
+          <Checkbox_ReplaceNumericColumns value="True" />
+          <radioButton_ReplaceNullwithBlanks value="True" />
+          <radioButton_ReplaceBlankswithNulls value="False" />
+          <radioButton_ReplaceNullwithZero value="True" />
+          <radioButton_ReplaceZerowithNulls value="False" />
+          <ReplaceWithBlanks value="True" />
+          <ReplaceWithZero value="True" />
+          <CheckBox_ModifyCase value="False" />
+          <ModifyCase value="none" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDataCleanse" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DataCleansePro.DataCleansePro">
+        <Position x="750" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RemoveNullRows value="False" />
+          <RemoveNullColumns value="False" />
+          <RemoveTabsLineBreaksAndDuplicates value="False" />
+          <RemoveLeadingAndTrailingWhitespace value="True" />
+          <RemoveAllWhitespaces value="False" />
+          <RemoveHTMLTags value="False" />
+          <RemoveInvisibleCharacters value="False" />
+          <Fields>
+            <Field value="EMP_ID" selected="True" />
+            <Field value="First Name" selected="True" />
+            <Field value="Last Name" selected="True" />
+            <Field value="Address" selected="True" />
+            <Field value="Age" selected="True" />
+            <Field value="Department ID" selected="True" />
+            <Field value="Emp_Rank" selected="True" />
+            <Field value="Salary_ID" selected="True" />
+            <Field value="Gender" selected="True" />
+            <Field value="EMP_First Name" selected="True" />
+            <Field value="EMP_Last name" selected="True" />
+            <Field value="Dep ID" selected="True" />
+            <Field value="*Unknown" selected="True" />
+          </Fields>
+          <RemoveLetters value="False" />
+          <RemoveNumbers value="False" />
+          <RemovePunctuation value="False" />
+          <Letters value="" />
+          <Numbers value="" />
+          <Punctuations value="" />
+          <Exceptions value="" />
+          <Checkbox_ReplaceStringColumns value="True" />
+          <Checkbox_ReplaceNumericColumns value="True" />
+          <radioButton_ReplaceNullwithBlanks value="True" />
+          <radioButton_ReplaceBlankswithNulls value="False" />
+          <radioButton_ReplaceNullwithZero value="True" />
+          <radioButton_ReplaceZerowithNulls value="False" />
+          <ReplaceWithBlanks value="True" />
+          <ReplaceWithZero value="True" />
+          <CheckBox_ModifyCase value="False" />
+          <ModifyCase value="none" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDataCleanse" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="810" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="EMP_ID" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="EMP_ID" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="EMP_ID" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_EMP_ID" selected="True" />
+                <SelectField field="Input_#3_EMP_ID" selected="False" />
+                <SelectField field="Input_#3_First Name" selected="True" />
+                <SelectField field="Input_#3_Last name" selected="True" />
+                <SelectField field="Input_#1_DOJ" selected="True" />
+                <SelectField field="Input_#3_Salary_ID" selected="True" />
+                <SelectField field="Input_#2_GrossSalary" selected="True" />
+                <SelectField field="Input_#2_Deduction" selected="True" />
+                <SelectField field="Input_#2_Tax" selected="True" />
+                <SelectField field="Input_#2_Month" selected="True" />
+                <SelectField field="Input_#3_Address" selected="False" />
+                <SelectField field="Input_#3_Age" selected="False" />
+                <SelectField field="Input_#3_Department ID" selected="False" />
+                <SelectField field="Input_#3_Emp_Rank" selected="False" />
+                <SelectField field="Input_#3_Emp_Email" selected="False" />
+                <SelectField field="Input_#2_EMP_ID" selected="False" rename="Input_#2_EMP_ID" />
+                <SelectField field="Input_#2_Salary_ID" selected="False" rename="Input_#2_Salary_ID" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="535" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="486" y="535" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="EMP_ID" selected="True" />
+            <Field field="First Name" selected="True" />
+            <Field field="Last name" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="Department ID" selected="True" />
+            <Field field="Salary_ID" selected="True" />
+            <Field field="Emp_Email" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EMP_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Joining_date$`" type="String" />
+            <Field name="DOJ" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Joining_date$`" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="535" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="age" selected="False" rename="Age" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="643" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="510" y="643" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="EMP_ID" selected="True" />
+            <Field field="Salary_ID" selected="True" />
+            <Field field="Month" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EMP_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="String" />
+            <Field name="Salary_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="String" />
+            <Field name="GrossSalary" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="Double" />
+            <Field name="Deduction" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="Double" />
+            <Field name="Tax" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="Double" />
+            <Field name="Month" size="3" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Payslip$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="643" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="age" selected="False" rename="Age" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="54" width="156" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>1.Populate nulls with 0 if numeric type. Else populate nulls for empty rows</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="870" y="510" width="240" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>3.Combine Employee, Joining_date, and Payslip sheets and output a consolidated table with employee name, join date, and latest salary/payslip info.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1218" y="114" width="156" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>4.Combine the Employee and EMP2 sheets (assuming they have similar structures). Using Manually and position</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1350" y="462" width="132" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>2.Combine Employee and EMP2 sheet to get all employee list</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="894" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Department ID</FieldFind>
+          <FieldSearch>Department ID</FieldSearch>
+          <ReplaceFoundField>Department Name</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Replace</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="954" y="654" width="168" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>5.Use the Department sheet to replace department codes/names in the Employee sheet using Department_ID.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="822" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Emp_Email</Field>
+          <ErrorHandling>Ignore</ErrorHandling>
+          <RootName>Username</RootName>
+          <Delimeters value="@" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Username1" selected="True" rename="Username" />
+            <SelectField field="Username2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="966" y="1038" width="180" height="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>7.Split employee email and create a user name column by splitting it by domain name</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="822" y="1134" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Emp_Email</Field>
+          <RegExExpression value="@(.+)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Emp_Email</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="Email_Domain" type="V_String" size="255" />
+          </ParseComplex>
+          <Match>
+            <Field>EMP_ID_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="906" y="1134" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>EMP_ID</Field>
+          <RegExExpression value="^E-\d{4}$" />
+          <CaseInsensitve value="True" />
+          <Method>Match</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="True" />
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>EMP_ID_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="966" y="1122" width="240" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>8.Extract domain names from email addresses (if present) in Employee or EMP2 sheets.
+Identify employee IDs with specific patterns (e.g., starting with "E" followed by 4 digits).</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="666" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="EMP_ID" />
+          </GroupFields>
+          <HeaderField field="Month" />
+          <DataField field="GrossSalary" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EMP_ID" size="255" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field name="Feb" source="CrossTab:Header:Month:Feb:Sum:" type="Double" />
+            <Field name="Jan" source="CrossTab:Header:Month:Jan:Sum:" type="Double" />
+            <Field name="Mar" source="CrossTab:Header:Month:Mar:Sum:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="630" y="1182" width="180" height="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>9.Use Payslip data to show total pay per employee across different months as columns.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="882" y="1206" width="132" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>10.Take the cross-tab output and transpose it back to long format for further summarization.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="738" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="EMP_ID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="EMP_ID" selected="False" />
+            <Field field="Feb" selected="True" />
+            <Field field="Jan" selected="True" />
+            <Field field="Mar" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="810" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Month" />
+            <SelectField field="Value" selected="True" rename="Gross Salary" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="690" y="1818" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[First Name]+ &quot; &quot; +[Last name]" field="Full Name" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Full Name = [First Name]+ " " +[Last name]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="762" y="1818" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="EMP_ID" selected="True" />
+            <SelectField field="First Name" selected="True" />
+            <SelectField field="Last name" selected="True" />
+            <SelectField field="Full Name" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="age" selected="True" />
+            <SelectField field="Department ID" selected="True" />
+            <SelectField field="Emp_Rank" selected="True" />
+            <SelectField field="Salary_ID" selected="True" />
+            <SelectField field="Emp_Email" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="822" y="1818" width="144" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>12.In the Employee sheet, combine First_Name and Last_Name into a new field Full_Name.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="690" y="1938" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff(DateTimeNow(),[DOJ],&quot;years&quot;)" field="Tenure In Years" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Tenure In Years = DateTimeDiff(DateTimeNow(),[DOJ],"years")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="594" y="1938" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="762" y="1938" width="228" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>13.Use the Joining_date sheet to calculate the number of years an employee has been with the company based on today’s date.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="2082" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[GrossSalary]-[Tax]-[Deduction]" field="Net Salary" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Net Salary = [GrossSalary]-[Tax]-[Deduction]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="88">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="702" y="2082" width="180" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>14.In the Payslip sheet, create a field Net_Salary = Gross_Salary - Tax - Deductions.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="90">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="750" y="2142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>GrossSalary</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-07-07 01:04:56</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2025-07-07 01:04:56</StartDate>
+              <EndDate>2025-07-07 01:04:56</EndDate>
+              <Operand>50000</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[GrossSalary] &gt; 50000</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="822" y="2142" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>15.Employees with Salary &gt; ₹50,000:</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="618" y="2274" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>DateRange</Operator>
+            <Field>DOJ</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-07-07 01:07:59</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2011-01-01</StartDate>
+              <EndDate>2011-12-31</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[DOJ] &gt;= "2011-01-01" AND
+[DOJ] &lt;= "2011-12-31"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1494" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="EMP_ID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="714" y="2274" width="168" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>16.Filter employees who joined in the year 2011 using the Joining_date sheet.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1506" y="138" width="100" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>17.From Employee table, find unique department names or codes.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1494" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Emp_Rank" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1566" y="258" width="144" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>18.In the Rank sheet, extract a list of unique employee ranks</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="98">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1542" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1602" y="330" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>19.Assign Row Numbers</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1542" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>10</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 10 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1626" y="390" width="120" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>20.Get the first 10 employees from the Employee sheet.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="103">
+      <GuiSettings>
+        <Position x="1566" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">10</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+          <Value name="Deterministic">False</Value>
+          <Value name="Seed">458676342</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="RandomRecords.yxmc" />
+    </Node>
+    <Node ToolID="104">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1626" y="486" width="120" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>21.Randomly sample 5 records from the EMP2 sheet for quality checks.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings>
+        <Position x="1530" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">11-20</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1590" y="654" width="144" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[22. Pick Records 11 to 20:
+Last 3 Employees:
+]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1554" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Last</Mode>
+          <N>3</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Last 3 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1506" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="GrossSalary" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GrossSalary - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1518" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="DOJ" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DOJ - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1590" y="846" width="156" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>23.Sort by Salary Descending:
+     Sort by Joining Date:</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="485" y="1301" width="493" height="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>11TH</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>11TH</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="510" y="1362" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="EMP_ID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="EMP_ID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_EMP_ID" selected="False" rename="Right_EMP_ID" input="Right_" />
+                    <SelectField field="Right_Salary_ID" selected="False" rename="Right_Salary_ID" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="702" y="1374" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Department ID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Department ID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Department ID" selected="False" rename="Right_Department ID" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="594" y="1350" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>IsNull([Department ID])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsNull([Department ID])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="678" y="1482" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="762" y="1482" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Department ID" action="GroupBy" rename="Department ID" />
+                <SummarizeField field="GrossSalary" action="Sum" rename="Sum_GrossSalary" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="822" y="1494" width="100" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>11.Total salary paid per department</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="894" y="1578" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Emp_Rank" action="GroupBy" rename="Emp_Rank" />
+                <SummarizeField field="GrossSalary" action="Avg" rename="Avg_GrossSalary" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="810" y="1554" width="100" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Average salary per rank</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="666" y="1650" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="EMP_ID" action="GroupBy" rename="EMP_ID" />
+                <SummarizeField field="GrossSalary" action="Max" rename="Max_GrossSalary" />
+                <SummarizeField field="GrossSalary" action="Min" rename="Min_GrossSalary" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="738" y="1674" width="100" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Maximum and minimum salary across all employees</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="738" y="1578" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>IsNull([Emp_Rank])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsNull([Emp_Rank])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="785" y="725" width="530" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>6th</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>6th</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="894" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="True" />
+              <InputFieldName>DOJ</InputFieldName>
+              <Language>English</Language>
+              <Format>yyyy-MM-dd</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert DOJ To:
+yyyy-MM-dd</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="810" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="966" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeYear([DateTime_Out])" field="Year" size="1073741823" type="V_WString" enabled="true" />
+                <FormulaField expression="DateTimeMonth([DateTime_Out])" field="Month" size="1073741823" type="V_WString" enabled="true" />
+                <FormulaField expression="DateTimeFormat([DateTime_Out],&quot;%A&quot;)" field="Day of the week" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Year = DateTimeYear([DateTime_Out])
+Month = DateTimeMonth([DateTime_Out])
+Day of...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1026" y="774" width="264" height="72" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[6.In the Joining_date sheet, convert joining dates to a standard format like yyyy-MM-dd, then extract:
+Year
+Month
+Day of the week
+]]></Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="965" y="281" width="376" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>2nd</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>2nd</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="990" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1110" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Department ID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Department ID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Department ID" selected="True" rename="Right_Department ID" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1218" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Department ID</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2025-07-03 15:05:49</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2025-07-03 15:05:49</StartDate>
+                  <EndDate>2025-07-03 15:05:49</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Department ID] = ""</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="989" y="53" width="217" height="217" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>4th</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>4th</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1122" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>ByName</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="EMP_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" column="1" />
+                    <Field name="First Name" size="8" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" column="2" />
+                    <Field name="Last name" size="5" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" column="3" />
+                    <Field name="Address" size="9" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" column="4" />
+                    <Field name="Age" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="Double" column="5" />
+                    <Field name="Department ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" column="6" />
+                    <Field name="Emp_Rank" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="Double" column="7" />
+                    <Field name="Salary_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" column="8" />
+                    <Field name="Emp_Email" size="26" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" column="9" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="EMP_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" column="1" />
+                    <Field name="First Name" size="10" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" column="2" />
+                    <Field name="Last Name" size="5" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" column="3" />
+                    <Field name="Address" size="9" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" column="4" />
+                    <Field name="Age" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="Double" column="5" />
+                    <Field name="Department ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" column="6" />
+                    <Field name="Emp_Rank" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="Double" column="7" />
+                    <Field name="Salary_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" column="8" />
+                    <Field name="Gender" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" column="10" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ManualDelayed</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1014" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1026" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1122" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByPos</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="437" y="209" width="301" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>1st</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>1st</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="462" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="558" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="EMP_ID" selected="True" />
+                <Field field="EMP_First Name" selected="True" />
+                <Field field="EMP_Last name" selected="True" />
+                <Field field="Address" selected="True" />
+                <Field field="Dep ID" selected="True" />
+                <Field field="Salary_ID" selected="True" />
+                <Field field="Gender" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="EMP_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" />
+                <Field name="EMP_First Name" size="10" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" />
+                <Field name="EMP_Last name" size="5" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" />
+                <Field name="Address" size="9" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" />
+                <Field name="Age" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="Double" />
+                <Field name="Dep ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" />
+                <Field name="Emp_Rank" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="Double" />
+                <Field name="Salary_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" />
+                <Field name="Gender" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`EMP2$`" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="654" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="EMP_First Name" selected="True" rename="First Name" />
+                <SelectField field="EMP_Last name" selected="True" rename="Last Name" />
+                <SelectField field="Dep ID" selected="True" rename="Department ID" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="437" y="53" width="289" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>1st</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>1st</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="462" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="546" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="EMP_ID" selected="True" />
+                <Field field="First Name" selected="True" />
+                <Field field="Last name" selected="True" />
+                <Field field="Address" selected="True" />
+                <Field field="Department ID" selected="True" />
+                <Field field="Salary_ID" selected="True" />
+                <Field field="Emp_Email" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="EMP_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" />
+                <Field name="First Name" size="8" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" />
+                <Field name="Last name" size="5" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" />
+                <Field name="Address" size="9" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" />
+                <Field name="age" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="Double" />
+                <Field name="Department ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" />
+                <Field name="Emp_Rank" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="Double" />
+                <Field name="Salary_ID" size="6" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" />
+                <Field name="Emp_Email" size="26" source="File: C:\Users\sulai\OneDrive\ドキュメント\OneDrive\Documents\Sample_data.xlsx|||`Employee$`" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="642" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="age" selected="True" rename="Age" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="43" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="43" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="65" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="65" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="98" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="100" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="68" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="False" />
+      <Destination ToolID="68" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="105" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="103" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Join" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="68" Connection="Left" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="68" Connection="Join" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="False" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Left" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>casestudy3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b6c89622-ac80-4713-8203-6c9bf29499b0" />
+      <Telemetry>
+        <PreviousWorkflowId value="b2ec865c-b02d-455d-80b8-0364201a6a83" />
+        <OriginWorkflowId value="b2ec865c-b02d-455d-80b8-0364201a6a83" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
